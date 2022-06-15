@@ -1,0 +1,176 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4,h5 ,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading{
+  line-height: 1.5;
+  font-size: 4rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navbar */
+
+.nav-link {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  text-weight: light;
+}
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.navbar-brand {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Title Section */
+
+.title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.iphone-img {
+  transform: rotate(30deg);
+  padding-top: 50px;
+  position: absolute;
+}
+
+.download-btn {
+  margin: 3% 3% 3% 3%;
+}
+
+/* Features */
+
+.features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+.testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+.testimionial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 3% 15%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Bottom section */
+
+.bot-btn{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px
+}
+#cta{
+  background-color: #ff4c68;
+}
+.cta-text{
+  line-height: 1.5;
+  font-size: 2.5rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+/* Footer */
+
+.footer-icon{
+  padding: 1%;
+}
+
+/* Ipad size */
+
+@media (max-width: 1028px){
+  .iphone-img{
+  position: static;
+  transform: rotate(0);
+  }
+  .container-fluid{
+    overflow: visible;
+  }
+  .title{
+    text-align: center;
+  }
+}
